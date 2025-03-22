@@ -120,7 +120,7 @@ def build_chart(chart_id, x_data, y_data, title):
         2: "bar",  # Столбчатый график
         3: "scatter"  # Точечный график
     }
-
+    print(1)
     chart_type = chart_types.get(chart_id, "line")
 
     if chart_type == "line":
